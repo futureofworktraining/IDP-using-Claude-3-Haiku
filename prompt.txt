@@ -1,0 +1,5 @@
+﻿Extract from the invoice following informations and provide them in the JSON format. Provide only requested informations. Do not add any remarks or mark downs. Only plain JSON with the follwing information. Convert dates to the expected format:
+- InvoiceNo (only number)
+- InvoiceDate (always convert the invoice date to the following format: dd/MM/yyyy ex: 01/12/2018. Do not provide the date in this format:  dd-MM-yyyy)
+- CompanyName
+- TotalDue (do not add currency sign or currency short name)

@@ -1,0 +1,5 @@
+﻿There are multiple invoices in the qurery. Extract details from these invoices and provide them in the Array JSON format. Provide only requested informations. Do not add any remards or mark downs. Only plain JSON with the follwing information:
+- InvoiceNo (only number)
+- InvoiceDate (format date of each invoice to dd/MM/yyyy)
+- CompanyName
+- TotalDue (do not add currency sign or currency short name)
